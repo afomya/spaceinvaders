@@ -91,4 +91,4 @@ def recharge_laser(self):
   if not self.laser_ready:
     current_time = pygame.time.get_ticks()
     if current_time - self.laser_time >= self.laser_delay:
-      self.laser_ready = True
+      self.laser_ready = Tru
